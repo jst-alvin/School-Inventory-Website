@@ -2,6 +2,30 @@
 
 A comprehensive web-based inventory management system designed for Kenyan schools to manage uniforms, kitchen items, and classroom resources.
 
+## 🔐 Authentication & Registration
+
+### Login Credentials
+The system includes built-in user authentication with registration capabilities controlled by a registration key.
+
+**Demo Accounts:**
+- **Username:** `admin` | **Password:** `password123`
+- **Username:** `teacher` | **Password:** `teacher123`
+- **Username:** `manager` | **Password:** `manager123`
+
+### Registration
+New users can create accounts by:
+1. Clicking "Create New Account" on the login page
+2. Filling in their details (Name, Username, Email, Password)
+3. Entering the **Registration Key: `SCHOOL2026`**
+
+This key prevents unauthorized registrations and ensures only authorized personnel can access the system.
+
+### Changing the Registration Key
+To change the registration key, edit `script.js` and update:
+```javascript
+const REGISTRATION_KEY = 'SCHOOL2026';
+```
+
 ## Features
 
 ### 📔 Uniform Management

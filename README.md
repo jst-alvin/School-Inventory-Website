@@ -20,10 +20,7 @@ New users can create accounts by:
 
 This key prevents unauthorized registrations and ensures only authorized personnel can access the system.
 
-### Changing the Registration Key
-To change the registration key, edit `script.js` and update:
-```javascript
-const REGISTRATION_KEY = 'SCHOOL2026';
+
 ```
 
 ## Features

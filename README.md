@@ -1,13 +1,13 @@
-# School Inventory Management System
+School Inventory Management System
 
 A comprehensive web-based inventory management system designed for Kenyan schools to manage uniforms, kitchen items, and classroom resources.
 
-## 🔐 Authentication & Registration
+ Authentication & Registration
 
-### Login Credentials
+Login Credentials
 The system includes built-in user authentication with registration capabilities controlled by a registration key.
 
-**Demo Accounts:**
+Demo Accounts:
 - **Username:** `admin` | **Password:** `password123`
 - **Username:** `teacher` | **Password:** `teacher123`
 - **Username:** `manager` | **Password:** `manager123`

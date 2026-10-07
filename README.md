@@ -1,8 +1,8 @@
-School Inventory Management System
+### School Inventory Management System
 
 A comprehensive web-based inventory management system designed for Kenyan schools to manage uniforms, kitchen items, and classroom resources.
 
- Authentication & Registration
+## Authentication & Registration
 
 Login Credentials
 The system includes built-in user authentication with registration capabilities controlled by a registration key.
@@ -28,13 +28,13 @@ const REGISTRATION_KEY = 'SCHOOL2026';
 
 ## Features
 
-### 📔 Uniform Management
+### Uniform Management
 - Add uniforms with type, quantity, size, and condition
 - Track uniform conditions (New, Good, Fair, Damaged)
 - Organize uniforms by size categories
 - View all uniforms in a detailed table
 
-### 🍽️ Kitchen Inventory
+### Kitchen Inventory
 - Manage popular Kenyan school foods:
   - Ugali (Cornmeal)
   - Rice
@@ -49,7 +49,7 @@ const REGISTRATION_KEY = 'SCHOOL2026';
 - Monitor food condition (Fresh, Good, Fair, Spoiled)
 - Prevent waste by tracking item freshness
 
-### 🏫 Classroom Inventory
+### Classroom Inventory
 - Organize resources by individual classes
 - Manage items per class:
   - Teacher Desks
@@ -59,7 +59,7 @@ const REGISTRATION_KEY = 'SCHOOL2026';
 - Track condition of each item
 - View complete inventory breakdown by classroom
 
-### 📊 Dashboard & Analytics
+###  Dashboard & Analytics
 - **Uniform Condition Chart**: Doughnut chart showing uniform distribution by condition
 - **Kitchen Items Overview**: Bar chart of top kitchen items
 - **Classroom Items Inventory**: Radar chart showing classroom resource distribution
@@ -78,7 +78,7 @@ const REGISTRATION_KEY = 'SCHOOL2026';
 3. The system automatically saves data to your browser's local storage
 
 ### Adding Uniforms
-1. Click the **👔 Uniforms** tab
+1. Click the ** Uniforms** tab
 2. Fill in:
    - Uniform Type (e.g., Shirt, Skirt, Trousers)
    - Quantity
@@ -88,14 +88,14 @@ const REGISTRATION_KEY = 'SCHOOL2026';
 3. Click "Add Uniform"
 
 ### Managing Kitchen Items
-1. Click the **🍽️ Kitchen** tab
+1. Click the ** Kitchen** tab
 2. Select a food item from the dropdown
 3. Enter quantity and unit (kg, liters, units, dozens)
 4. Select condition (Fresh, Good, Fair, Spoiled)
 5. Click "Add Item"
 
 ### Managing Classrooms
-1. Click the **🏫 Classrooms** tab
+1. Click the ** Classrooms** tab
 2. Enter class name (e.g., Form 1A, Form 2B) and click "Add Class"
 3. For each class, add items:
    - Select item type (Teacher Desk, Student Desk, etc.)
@@ -106,7 +106,7 @@ const REGISTRATION_KEY = 'SCHOOL2026';
 5. Remove items or delete entire classes as needed
 
 ### Viewing Dashboard
-1. Click the **📊 Dashboard** tab
+1. Click the ** Dashboard** tab
 2. View all charts and statistics
 3. Charts update automatically as you add/remove items
 4. Use statistics cards for quick overview
@@ -173,6 +173,4 @@ For issues or suggestions, review the code comments and ensure:
 
 ---
 
-**Version**: 1.0
-**Last Updated**: 2026
 **Designed for**: Kenyan Schools
